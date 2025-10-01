@@ -49,7 +49,8 @@ public class Curso {
 
     //toString
     public String toString() {
-        String Listafinal = nombre + " " + codigo + " " + "Alumnos inscritos:";
+        String Listafinal = nombre + " " + codigo + "\n"
+                + "Alumnos inscritos:" + "\n";
 
         if (alumnos.isEmpty()) {
             Listafinal += " - No hay alumnos inscritos";

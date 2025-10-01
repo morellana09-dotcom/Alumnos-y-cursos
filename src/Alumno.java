@@ -62,7 +62,7 @@ public class Alumno {
 
     //Metodo toString
     public String toString() {
-        return "Alumno = " + nombre + ", " + apellido + ", " + matricula + ", " + carrera;
+        return  nombre + ", " + apellido + ", " + matricula + ", " + carrera;
 
     }
 
